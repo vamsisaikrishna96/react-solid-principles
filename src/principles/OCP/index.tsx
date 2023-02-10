@@ -9,12 +9,10 @@ export function OCP() {
     <div className="flex space-x-10">
       <Button
         text="Go Home"
-        // role="forward"
         icon={<HiOutlineArrowNarrowRight />}
       />
       <Button
         text="Go Back"
-        // role="back"
         icon={<HiOutlineArrowNarrowLeft />}
       />
     </div>

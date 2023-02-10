@@ -22,7 +22,11 @@ export function Product(props: IProductProps) {
   return (
     <div className="w-56 flex flex-col items-center m-2 max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
+{/* GOOD  */}
         <Thumbnail imageUrl={product.image} />
+
+        {/* BAD  */}
+        {/* <Thumbnail product={product} /> */}
       </a>
       <div className="flex flex-col px-5 pb-5">
         <a href="#">
